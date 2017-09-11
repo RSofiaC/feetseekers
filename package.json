@@ -1,0 +1,31 @@
+{
+  "name": "feet_bot",
+  "version": "1.0.0",
+  "description": "Simple twitter bot to post images from a specified folder",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grauPuche/feetseekers.git"
+  },
+  "keywords": [
+    "twit",
+    "twitter",
+    "bot",
+    "images"
+  ],
+  "author": "grau Puche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grauPuche/feetseekers/issues"
+  },
+  "homepage": "https://github.com/grauPuche/feetseekers#readme",
+  "dependencies": {
+    "chokidar": "^1.7.0",
+    "fs": "0.0.1-security",
+    "twit": "^2.2.9"
+  }
+}
